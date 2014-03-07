@@ -482,7 +482,7 @@ div.row {
 }
 html {
   font-size: 62.5%;
-  background-image: url('../images/baseline-25.png');
+  /*background-image: url('../images/baseline-25.png');*/
 }
 body {
   /*background-size: 1px;*/
