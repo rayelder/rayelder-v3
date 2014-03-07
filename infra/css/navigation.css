@@ -1,0 +1,54 @@
+a {
+  /*padding-bottom: 0.1rem;*/
+  /*border-bottom: 0.1rem solid fade(@color-black, 50%);*/
+  color: #4b4f54;
+  text-decoration: none;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+}
+a:hover {
+  border-bottom: 0.1rem solid #55afce;
+  color: #55afce;
+}
+cite a {
+  /*padding-bottom: 0.2rem;*/
+  border-bottom: 0.1rem solid rgba(148, 154, 144, 0.5);
+  color: #949a90;
+}
+cite a:hover {
+  border-bottom: 0.1rem solid #4b4f54;
+  color: #4b4f54;
+}
+button {
+  /*display: block;*/
+  font-family: "ff-sero-web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  color: #ffffff;
+  background-color: #6ba4b8;
+  border: none;
+  border-bottom: 2px solid #003d4c;
+  border-radius: 0.4rem;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+button .btn {
+  /*display: block;*/
+  /*padding: 0.6rem 0.8rem 0.6rem 0.8rem;*/
+  /*color: @color-white;*/
+  background-color: red;
+  /*border: none;*/
+  /*border-bottom: 2px solid @color-blue-dark;*/
+  /*border-radius: 0.4rem;*/
+  /*font-size: 16px;*/
+  /*font-size: 1.6rem;*/
+  /*line-height: 22px;*/
+  /*line-height: 2.2rem;*/
+}
+button .block {
+  display: block;
+  background-color: red;
+}

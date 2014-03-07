@@ -249,7 +249,7 @@ div.row {
   margin-top: 1.1rem !important;
 }
 .margin-top-one {
-  margin-top: 2.2rem !important;
+  margin-top: 2.5rem !important;
 }
 .margin-top-two {
   margin-top: 4.4rem !important;
@@ -482,7 +482,7 @@ div.row {
 }
 html {
   font-size: 62.5%;
-  /*background-image: url('../images/baseline-22.png');*/
+  background-image: url('../images/baseline-25.png');
 }
 body {
   /*background-size: 1px;*/
@@ -499,8 +499,8 @@ h5,
 h6,
 p {
   color: #4b4f54;
-  margin: 0px 0px 16px 0px;
-  margin: 0rem 0rem 1.6rem 0rem;
+  margin: 0px 0px 17px 0px;
+  margin: 0rem 0rem 1.7rem 0rem;
   padding: 0px 0px 0px 0px;
   padding: 0rem 0rem 0rem 0rem;
 }
@@ -552,8 +552,8 @@ h4,
 h5,
 p,
 blockquote {
-  padding-top: 6px;
-  padding-top: 0.6rem;
+  padding-top: 8px;
+  padding-top: 0.8rem;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 25px;
@@ -615,12 +615,38 @@ a {
   text-decoration: none;
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: 24px;
-  line-height: 2.4rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+  -webkit-transition: all 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
 }
 a:hover {
   border-bottom: 0.1rem solid #55afce;
   color: #55afce;
+  -webkit-transition: all 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
+}
+a.lnk-primary {
+  /*padding-bottom: 0.1rem;*/
+  border-bottom: 0.1rem solid rgba(107, 164, 184, 0.5);
+  color: #6ba4b8;
+  text-decoration: none;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+  -webkit-transition: all 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
+}
+a.lnk-primary:hover {
+  border-bottom: 0.1rem solid #6ba4b8;
+  color: #55afce;
+  -webkit-transition: all 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
 }
 cite a {
   /*padding-bottom: 0.2rem;*/
@@ -630,6 +656,113 @@ cite a {
 cite a:hover {
   border-bottom: 0.1rem solid #4b4f54;
   color: #4b4f54;
+}
+button.btn-default {
+  /*display: block;*/
+  font-family: "ff-sero-web", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0rem 1.1rem 2.5rem 0rem;
+  padding: 1.6rem 2.0rem;
+  color: #ffffff;
+  background-color: #c7cbc5;
+  border: none;
+  border-bottom: 2px solid #a1a69d;
+  border-radius: 0.4rem;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  -webkit-transition: all 0.25s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.25s;
+  text-shadow: 0px 2px 2px #7a8176;
+}
+/*
+button:hover.btn-default {
+	
+	color: @color-white;
+	
+	background-color: lighten(@color-gray, 7.5%);
+	border-bottom: 2px solid darken(@color-gray, 10%);
+	-webkit-transition: all 0.5s; 
+	transition: all 0.5s;
+	text-shadow: 0px 1px 2px darken(@color-gray, 40%);
+}
+*/
+button.btn-primary {
+  background-color: #4e8ca2;
+  border-bottom: 2px solid #2d515d;
+  text-shadow: 0px 1px 2px #2d515d;
+}
+button:hover.btn-primary,
+button:hover.btn-default {
+  cursor: pointer;
+  background-color: #63686f;
+  border-bottom: 2px solid #1b1c1e;
+  text-shadow: 0px 1px 2px color-black;
+  -webkit-transition: all 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
+}
+button.btn-sm {
+  font-family: "ff-sero-sc-web", sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 0.9rem;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 12px;
+  line-height: 1.2rem;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+}
+button.btn-lg {
+  padding: 2.9rem 3.6rem;
+}
+.block {
+  display: block;
+}
+ul#social {
+  padding-top: 4px;
+  padding-top: 0.4rem;
+}
+ul#social li {
+  display: inline-block;
+  float: left;
+  overflow: auto;
+  margin-right: 16px;
+  margin-right: 1.6rem;
+}
+ul#social li a {
+  color: #c7cbc5;
+  border: none;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 46px;
+  line-height: 4.6rem;
+}
+ul#social li a:hover {
+  color: #4b4f54;
+  border: none;
+}
+ul#primary {
+  padding-top: 8px;
+  padding-top: 0.8rem;
+  overflow: auto;
+  height: 42px;
+  height: 4.2rem;
+}
+ul#primary li {
+  display: block;
+  float: left;
+  margin-right: 16px;
+  margin-right: 1.6rem;
+}
+ul#primary li:first-child {
+  font-weight: 700;
+}
+ul#primary li:first-child a {
+  border-bottom: none;
 }
 input {
   margin: 0em 0em 0em 0em;

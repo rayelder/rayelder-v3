@@ -32,6 +32,7 @@
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="<?php get_stylesheet_directory() ?>/infra/js/modernizr.custom.18245.js" type="text/javascript"></script>
 		<script src="<?php get_stylesheet_directory() ?>/infra/js/infra.js" type="text/javascript"></script>
+		<link href="//cdn.symbolset.com/051719de2c11a3b59a165dc8c9f86ddff7309c88/symbolset.css" rel="stylesheet">
 
 
 	<!--[if lt IE 9]>
@@ -44,14 +45,34 @@
 
 	<?php
 
-	$defaults = array(
+	$social = array(
 		'theme_location'  => '',
-		'menu'            => 'Primary',
-		'container'       => 'div',
+		'menu'            => 'Social',
+		'container'       => '',
 		'container_class' => '',
 		'container_id'    => '',
-		'menu_class'      => 'menu',
-		'menu_id'         => '',
+		'menu_class'      => 'ss-icon ss-social-cirlce',
+		'menu_id'         => 'social',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		'depth'           => 0,
+		'walker'          => ''
+	);
+
+
+	$primary = array(
+		'theme_location'  => '',
+		'menu'            => 'Primary',
+		'container'       => '',
+		'container_class' => '',
+		'container_id'    => '',
+		'menu_class'      => '',
+		'menu_id'         => 'primary',
 		'echo'            => true,
 		'fallback_cb'     => 'wp_page_menu',
 		'before'          => '',
@@ -68,11 +89,12 @@
 	<div class="centered margin-top-two">
 		<div class="row">
 			<div class="column6">
-				<?php wp_nav_menu( $defaults ); ?>
+				<?php wp_nav_menu( $social ); ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column6">
+				<?php wp_nav_menu( $primary ); ?>
 			</div>
 		</div>
 	</div>
-
-	
-
-
