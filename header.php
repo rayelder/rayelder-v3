@@ -86,7 +86,7 @@
 
 	?>
 
-	<div class="centered margin-top-two">
+	<div class="centered">
 		<div class="row">
 			<div class="column6">
 				<?php wp_nav_menu( $social ); ?>
