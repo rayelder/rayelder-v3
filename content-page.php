@@ -8,11 +8,4 @@
  */
 ?>
 
-<div class="row">
-	<div class="column6">
-		<?php the_title( '<h1>', '</h1>' ); ?>
-	</div>
-</div>
 
-	
-<?php the_content();?>

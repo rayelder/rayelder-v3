@@ -7,8 +7,8 @@ a {
 	text-decoration: none;
 	font-size: 16px;
 	font-size: 1.6rem;
-	line-height: 22px;
-	line-height: 2.2rem;
+	line-height: 24px;
+	line-height: 2.4rem;
 	-webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
 	transition: all 0.5s;
 }
@@ -27,8 +27,8 @@ a.lnk-primary {
 	text-decoration: none;
 	font-size: 16px;
 	font-size: 1.6rem;
-	line-height: 22px;
-	line-height: 2.2rem;
+	line-height: 24px;
+	line-height: 2.4rem;
 	-webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
 	transition: all 0.5s;
 }
@@ -56,8 +56,8 @@ button.btn-default {
 	font-family: "ff-sero-web",sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	margin: 0rem 1.1rem 2.5rem 0rem;
-	padding: 1.6rem 2.0rem;
+	margin: 0rem 1.1rem 2.4rem 0rem;
+	padding: 1.5rem 2.0rem;
 	color: @color-white;
 	background-color: lighten(@color-gray, 20%);
 	border: none;
@@ -112,7 +112,7 @@ button.btn-sm {
 }
 
 button.btn-lg {
-	padding: 2.9rem 3.6rem;
+	padding: 2.7rem 3.6rem;
 }
 
 .block {
@@ -120,11 +120,15 @@ button.btn-lg {
 }
 
 ul#social {
+	display: block;
 	padding-top: 4px;
 	padding-top: 0.4rem;
+	overflow: auto;
+
+	/*background-color: rgba(0, 255, 0, 0.25);*/
 	
 	li {
-		display: inline-block;
+		display: block;
 		float: left;
 		overflow: auto;
 		margin-right: 16px;
@@ -135,8 +139,8 @@ ul#social {
 			border: none;
 			font-size: 24px;
 			font-size: 2.4rem;
-			line-height: 46px;
-			line-height: 4.6rem;
+			line-height: 44px;
+			line-height: 4.4rem;
 		}
 
 		a:hover {
@@ -147,17 +151,25 @@ ul#social {
 }
 
 ul#primary {
-	padding-top: 8px;
-	padding-top: 0.8rem;
+	display: block;
+	/*padding-top: 2px;*/
+	/*padding-top: 0.2rem;*/
 	overflow: auto;
-	height: 42px;
-	height: 4.2rem;
+	/*height: 42px;*/
+	/*height: 4.2rem;*/
+	/*background-color: rgba(0, 255, 0, 0.5);*/
 	
 	li {
 		display: block;
 		float: left;
 		margin-right: 16px;
 		margin-right: 1.6rem;
+
+		a {
+			line-height: 48px;
+			line-height: 4.8rem;
+		}
+
 	}
 
 	li:first-child {

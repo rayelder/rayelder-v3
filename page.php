@@ -13,22 +13,28 @@
 
 get_header(); ?>
 
-<div class="centered margin-top-two">
-
 	
 		<?php
 			// Start the Loop.
 			while ( have_posts() ) : the_post();
 
-				// Include the page content template.
-				get_template_part( 'content', 'page' );
+				// Include the page content template. ?>
+				<div class="row">
+					<div class="column6">
+						<?php the_title( '<h1>', '</h1>' ); ?>
+					</div>
+				</div>
 
+					
+				<?php 
+
+				the_content();
+				
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) {
 					comments_template();
 				}
 			endwhile;
 		?>
-</div>
 
 <?php get_footer(); ?>
