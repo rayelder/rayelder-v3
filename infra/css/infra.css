@@ -498,8 +498,8 @@ h5,
 h6,
 p {
   color: #4b4f54;
-  margin: 0px 0px 24px 0px;
-  margin: 0rem 0rem 2.4rem 0rem;
+  /*margin: 0px 0px 24px 0px;*/
+  /*margin: 0rem 0rem 2.4rem 0rem;*/
   padding: 0px 0px 0px 0px;
   padding: 0rem 0rem 0rem 0rem;
   /*background-color: rgba(255, 0, 0, 0.5);*/

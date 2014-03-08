@@ -28,12 +28,11 @@
 
 		<script type="text/javascript" src="//use.typekit.net/hhp6rtd.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<link rel="stylesheet" type="text/css" href="<?php get_stylesheet_directory() ?>/infra/css/infra.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/infra/css/infra.css" />
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="<?php get_stylesheet_directory() ?>/infra/js/modernizr.custom.18245.js" type="text/javascript"></script>
-		<script src="<?php get_stylesheet_directory() ?>/infra/js/infra.js" type="text/javascript"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/infra/js/modernizr.custom.18245.js" type="text/javascript"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/infra/js/infra.js" type="text/javascript"></script>
 		<link href="//cdn.symbolset.com/051719de2c11a3b59a165dc8c9f86ddff7309c88/symbolset.css" rel="stylesheet">
-
 
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
