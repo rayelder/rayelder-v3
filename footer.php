@@ -9,6 +9,11 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
+	<div class="row">
+		<div class="column6">
+		<p>&copy; Copyright 2010-2014. Ray Elder</p>
+		</div>
+	</div>
 </div>
 	<?php wp_footer(); ?>
 </body>
