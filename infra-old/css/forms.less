@@ -1,0 +1,33 @@
+input {
+	margin: 0em 0em 0em 0em;
+	padding: 8px;
+	border: 1px solid @color-gray;
+}
+
+input:focus {
+	margin: 0em 0em 0em 0em;
+	padding: 8px;
+	border: 1px solid @color-black;
+}
+
+input[type=search] {	
+	-webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
+/* fallback placeholder */
+.placeholder {
+	color: @color-gray;
+}
+/* webkit placeholder */
+::-webkit-input-placeholder {
+	color: @color-gray;
+}
+/* moz placeholder */
+:-moz-placeholder {
+	color: @color-gray;
+}

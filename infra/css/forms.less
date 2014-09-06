@@ -1,13 +1,33 @@
-input {
+@import "variables.less";
+
+label {
+	font-family: "ff-sero-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+input, textarea {
 	margin: 0em 0em 0em 0em;
-	padding: 8px;
+	padding: 0px;
 	border: 1px solid @color-gray;
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	outline: none;
+	font-family: "ff-sero-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 input:focus {
 	margin: 0em 0em 0em 0em;
 	padding: 8px;
-	border: 1px solid @color-black;
+	border: 1px solid @color-green;
 }
 
 input[type=search] {	
@@ -22,12 +42,47 @@ input[type="search"]::-webkit-search-cancel-button {
 /* fallback placeholder */
 .placeholder {
 	color: @color-gray;
+	font-family: "ff-sero-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	/*padding: 8px 0px 16px 0px;*/
+	/*padding: 0.8rem 0rem 1.6rem 0rem;*/
+	/*font-family: "ff-sero-sc-web",sans-serif;*/
+	/*font-style: normal;*/
+	font-size: 15px;
+	font-size: 1.5rem;
+	/*line-height: 24px;*/
+	/*line-height: 2.4rem;*/
 }
+
 /* webkit placeholder */
 ::-webkit-input-placeholder {
 	color: @color-gray;
+	font-family: "ff-sero-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	/*padding: 8px 0px 16px 0px;*/
+	/*padding: 0.8rem 0rem 1.6rem 0rem;*/
+	/*font-family: "ff-sero-sc-web",sans-serif;*/
+	/*font-style: normal;*/
+	font-size: 15px;
+	font-size: 1.5rem;
+	/*line-height: 24px;*/
+	/*line-height: 2.4rem;*/
 }
+
 /* moz placeholder */
 :-moz-placeholder {
 	color: @color-gray;
+	font-family: "ff-sero-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	/*padding: 8px 0px 16px 0px;*/
+	/*padding: 0.8rem 0rem 1.6rem 0rem;*/
+	/*font-family: "ff-sero-sc-web",sans-serif;*/
+	/*font-style: normal;*/
+	font-size: 15px;
+	font-size: 1.5rem;
+	/*line-height: 24px;*/
+	/*line-height: 2.4rem;*/
 }

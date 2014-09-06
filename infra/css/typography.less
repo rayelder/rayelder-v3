@@ -2,13 +2,12 @@
 
 html {
 	font-size: 62.5%;
-	/*background-image: url('../images/baseline-24.png');*/
-	/* */
+	background-image: url('../includes/images/baseline-24.png');
 }
 
 body {
 	/*background-size: 1px;*/
-	color: gray;
+	color: @color-black;
 	font-family: "ff-sero-web",sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -25,7 +24,7 @@ h2, h3, h4, h5, h6, p {
 
 h1 {
 	/*background-color: rgba(255, 0, 0, 0.25);*/
-	color: @color-gray;
+	color: @color-black;
 	margin: 0px 0px 24px 0px;
 	margin: 0rem 0rem 2.4rem 0rem;
 	padding: 16px 0px 8px 0px;
@@ -130,11 +129,11 @@ span.small-caps {
 
 
 blockquote {
-  border-left: 0.3rem solid @color-gray;
+  border-left: 0.3rem solid @color-black;
   margin: 0.0rem 0.0rem 0.0rem 0.0rem;
   padding: 0.0rem 2.2rem 2.2rem 2.2rem;
   color: @color-black;
-  background-color: fade(@color-gray, 10%);
+  background-color: fade(@color-black, 10%);
   font-style: italic;
   /*quotes: "\201C""\201D""\2018""\2019";*/
 }
@@ -143,7 +142,7 @@ blockquote footer {
 	display: block;
 	padding-top: 5px;
 	padding-top: 0.5rem;
-	border-top: 0.1rem dotted @color-gray;
+	border-top: 0.1rem dotted @color-black;
 }
 
 cite {

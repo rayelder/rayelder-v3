@@ -24,5 +24,8 @@ $(document).ready(function(){
 		  })
 		});
 	}
+	$('#header').load('/infra/includes/header.html');
+    $('#description').load('/infra/includes/description.html');
+    $('#navigation').load('/infra/includes/navigation.html');
 
 });
