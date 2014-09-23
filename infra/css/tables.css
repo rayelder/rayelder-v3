@@ -1,0 +1,44 @@
+/* System Messages */
+table {
+  /*padding: 0px;*/
+
+  /*padding: 0rem;*/
+
+  /*border: 1px solid #f0f;*/
+
+  border-collapse: collapse;
+}
+tr {
+  padding: 0px;
+  margin: 0px;
+}
+th {
+  padding: 0px 24px 9px 0px;
+  padding: 0rem 2.4rem 0.9rem 0rem;
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #bbbeb8;
+  border-bottom: 1px solid #bbbeb8;
+}
+td {
+  padding: 11px 24px 0px 0px;
+  padding: 1.1rem 2.4rem 0rem 0rem;
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+table.striped tr:nth-child(even) {
+  /*background-color: #eee;*/
+
+}
+table.striped tr:nth-child(odd) {
+  /*background-color: @color-white;*/
+
+}
+table.striped th {
+  /*background-color: @color-white;*/
+
+  /*color: white;*/
+
+  /*background-color: black;*/
+
+}
